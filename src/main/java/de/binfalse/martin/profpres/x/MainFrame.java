@@ -4,48 +4,32 @@
 package de.binfalse.martin.profpres.x;
 
 import java.awt.Color;
-import java.awt.Graphics2D;
 import java.awt.GraphicsConfiguration;
 import java.awt.GraphicsDevice;
 import java.awt.GraphicsEnvironment;
-import java.awt.Image;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.ComponentEvent;
 import java.awt.event.ComponentListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseMotionListener;
 import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.RandomAccessFile;
 import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
-import java.util.List;
 import java.util.Vector;
 import java.util.prefs.Preferences;
 
-import javax.imageio.ImageIO;
-import javax.swing.JComponent;
 import javax.swing.JFileChooser;
 import javax.swing.JFrame;
 import javax.swing.JOptionPane;
-import javax.swing.Painter;
-import javax.swing.UIDefaults;
-import javax.swing.UIManager;
-import javax.swing.UIManager.LookAndFeelInfo;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.filechooser.FileFilter;
 
 import com.sun.pdfview.PDFFile;
-import com.sun.pdfview.PDFPage;
-import com.sun.pdfview.PDFRenderer;
 
+import de.binfalse.martin.profpres.mgmt.PresentationListener;
+import de.binfalse.martin.profpres.mgmt.Screen;
 /*import net.sf.ghost4j.document.DocumentException;
 import net.sf.ghost4j.document.PDFDocument;
 import net.sf.ghost4j.renderer.RendererException;
@@ -53,10 +37,7 @@ import net.sf.ghost4j.renderer.SimpleRenderer;
 
 import org.apache.pdfbox.pdmodel.PDDocument;
 import org.apache.pdfbox.util.PDFImageWriter;*/
-
 import de.binfalse.martin.profpres.mgmt.Alphabet;
-import de.binfalse.martin.profpres.mgmt.PresentationListener;
-import de.binfalse.martin.profpres.mgmt.Screen;
 
 
 

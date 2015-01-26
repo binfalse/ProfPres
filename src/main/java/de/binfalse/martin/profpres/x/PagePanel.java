@@ -4,22 +4,12 @@
 package de.binfalse.martin.profpres.x;
 
 import java.awt.Color;
-import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.Graphics2D;
-import java.awt.Image;
-import java.awt.Rectangle;
-import java.awt.RenderingHints;
-import java.awt.event.ComponentEvent;
-import java.awt.event.ComponentListener;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JButton;
-import javax.swing.JPanel;
 
 import com.sun.pdfview.PDFPage;
-import com.sun.pdfview.PDFRenderer;
-import com.sun.pdfview.Watchable;
 
 import de.binfalse.martin.profpres.mgmt.PresentationListener;
 

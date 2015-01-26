@@ -3,18 +3,14 @@
  */
 package de.binfalse.martin.profpres.x;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.GridLayout;
 import java.awt.image.BufferedImage;
-import java.util.HashMap;
 import java.util.Vector;
 
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
-
-import com.sun.pdfview.PDFPage;
 
 import de.binfalse.martin.profpres.mgmt.PresentationListener;
 

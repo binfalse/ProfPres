@@ -6,14 +6,9 @@ package de.binfalse.martin.profpres.x;
 import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.MouseEvent;
-import java.awt.event.MouseListener;
 import java.awt.image.BufferedImage;
 
 import javax.swing.JButton;
-import javax.swing.JPanel;
 
 import de.binfalse.martin.profpres.mgmt.PresentationListener;
 
