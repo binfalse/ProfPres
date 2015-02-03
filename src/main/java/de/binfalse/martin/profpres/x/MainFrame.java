@@ -42,6 +42,9 @@ import de.binfalse.martin.profpres.mgmt.Alphabet;
 
 
 /**
+ * 
+ * TODO: this pdf renderer sucks...
+ * 
  * @author Martin Scharm
  * 
  */
